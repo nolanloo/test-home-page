@@ -1,0 +1,30 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    max-height: 100%;
+    object-fit: cover;
+    transform: translateX(calc((100% - 100vw) / 2));
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to join our discord channel */
+  a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: #f1f1f1;
+    background-color: #000;
+    text-decoration: none;
+}
