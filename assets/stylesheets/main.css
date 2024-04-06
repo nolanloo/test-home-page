@@ -22,9 +22,9 @@
   /* Style the button used to join our discord channel */
   a.button {
     padding: 5px 5px;
-    border: 1px outset buttonborder;
+    border: 1px #5a64ea outset buttonborder;
     border-radius: 3px;
     color: #f1f1f1;
-    background-color: #5865F2;
+    background-color: #5a64ea;
     text-decoration: none;
 }
